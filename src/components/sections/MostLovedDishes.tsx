@@ -55,17 +55,17 @@ export function MostLovedDishes({ items, isDemoMode }: MostLovedDishesProps) {
           <div className="space-y-2">
             {/* Eyebrow */}
             <p className="text-[11px] font-semibold tracking-[0.2em] text-[#E7B847]/90 uppercase">
-              FAVORITOS DOS CONVIDADOS
+              GUEST FAVORITES
             </p>
 
             {/* Headline */}
             <h2 className="font-serif text-[32px] sm:text-4xl lg:text-5xl text-[#FFFFFF] font-normal leading-[1.15]">
-              <span className="italic font-serif text-[#E7B847]">Pratos</span> mais apreciados
+              Most Loved <span className="italic font-serif text-[#E7B847]">Dishes</span>
             </h2>
 
             {/* Description */}
             <p className="text-[#F3EEE5]/70 text-sm sm:text-base font-light max-w-md pt-1">
-              Os sabores que conquistam nossos clientes.
+              The Brazilian flavors our customers keep coming back for.
             </p>
           </div>
 
@@ -75,7 +75,7 @@ export function MostLovedDishes({ items, isDemoMode }: MostLovedDishesProps) {
               onClick={() => scrollToIndex(Math.max(0, activeIndex - 1))}
               disabled={activeIndex === 0}
               className="w-10 h-10 rounded-full border border-white/10 hover:border-[#E7B847]/60 bg-white/[0.02] hover:bg-white/[0.06] flex items-center justify-center transition-all text-[#F3EEE5] disabled:opacity-30 disabled:pointer-events-none"
-              aria-label="Previous prato"
+              aria-label="Previous dish"
             >
               <div className="relative w-3.5 h-3.5">
                 <Image
@@ -90,7 +90,7 @@ export function MostLovedDishes({ items, isDemoMode }: MostLovedDishesProps) {
               onClick={() => scrollToIndex(Math.min(items.length - 1, activeIndex + 1))}
               disabled={activeIndex >= items.length - 1}
               className="w-10 h-10 rounded-full border border-white/10 hover:border-[#E7B847]/60 bg-white/[0.02] hover:bg-white/[0.06] flex items-center justify-center transition-all text-[#F3EEE5] disabled:opacity-30 disabled:pointer-events-none"
-              aria-label="Next prato"
+              aria-label="Next dish"
             >
               <div className="relative w-3.5 h-3.5">
                 <Image
@@ -161,7 +161,7 @@ export function MostLovedDishes({ items, isDemoMode }: MostLovedDishesProps) {
                   <div className="pt-2 border-t border-white/[0.06] space-y-3">
                     <div className="flex items-baseline justify-between">
                       <span className="text-[11px] uppercase tracking-wider text-[#F3EEE5]/50">
-                        Preço
+                        Price
                       </span>
                       <span className="font-serif text-[19px] sm:text-xl font-bold text-[#FFFFFF]">
                         ${dish.price.toFixed(2)}
@@ -181,7 +181,7 @@ export function MostLovedDishes({ items, isDemoMode }: MostLovedDishesProps) {
                           className="object-contain"
                         />
                       </div>
-                      <span>Adicionar ao pedido</span>
+                      <span>Add to Order</span>
                     </button>
                   </div>
                 </div>
@@ -296,7 +296,7 @@ function CustomizationModal({
                   >
                     <span>{opt.name}</span>
                     <span className="text-xs text-[#E7B847] font-medium">
-                      {opt.price > 0 ? `+$${opt.price.toFixed(2)}` : "Incluso"}
+                      {opt.price > 0 ? `+$${opt.price.toFixed(2)}` : "Included"}
                     </span>
                   </label>
                 );
@@ -310,7 +310,7 @@ function CustomizationModal({
             <button
               onClick={() => setQuantity((q) => Math.max(1, q - 1))}
               className="px-3.5 py-2 text-sm text-white/80 hover:text-[#E7B847]"
-              aria-label="Diminuir"
+              aria-label="Decrease"
             >
               -
             </button>
@@ -318,7 +318,7 @@ function CustomizationModal({
             <button
               onClick={() => setQuantity((q) => q + 1)}
               className="px-3.5 py-2 text-sm text-white/80 hover:text-[#E7B847]"
-              aria-label="Aumentar"
+              aria-label="Increase"
             >
               +
             </button>
@@ -328,7 +328,7 @@ function CustomizationModal({
             onClick={handleAdd}
             className="flex-1 min-h-[44px] py-2.5 px-5 rounded-xl bg-[#E7B847] hover:bg-[#F3CE70] text-[#100F0E] font-semibold text-xs uppercase tracking-wider transition-all"
           >
-            Adicionar • ${(totalPerUnit * quantity).toFixed(2)}
+            Add to Order • ${(totalPerUnit * quantity).toFixed(2)}
           </button>
         </div>
       </div>

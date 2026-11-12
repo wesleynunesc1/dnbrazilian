@@ -50,7 +50,7 @@ export function VisitUs() {
                 </div>
                 <div>
                   <h4 className="text-[11px] uppercase font-semibold tracking-wider text-[#E7B847] mb-0.5">
-                    Endereço
+                    Address
                   </h4>
                   <p className="text-sm text-[#F3EEE5] font-normal">
                     {siteConfig.location.fullAddress}
@@ -74,7 +74,7 @@ export function VisitUs() {
                 </div>
                 <div>
                   <h4 className="text-[11px] uppercase font-semibold tracking-wider text-[#E7B847] mb-1">
-                    Horário de Funcionamento
+                    Operating Hours
                   </h4>
                   <div className="space-y-0.5">
                     {siteConfig.hours?.map((h, i) => (
@@ -99,7 +99,7 @@ export function VisitUs() {
                   </div>
                   <div>
                     <h4 className="text-[11px] uppercase font-semibold tracking-wider text-[#E7B847] mb-0.5">
-                      Telefone
+                      Phone Number
                     </h4>
                     <p className="text-sm text-[#F3EEE5] font-normal">
                       {siteConfig.contact.phone}

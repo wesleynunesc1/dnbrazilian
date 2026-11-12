@@ -7,25 +7,25 @@ export function OrderSteps() {
   const steps = [
     {
       number: "01",
-      title: "Escolha seus pratos",
+      title: "Choose Your Dishes",
       description: "Browse authentic plates, portions, and desserts.",
       icon: "/assets/dn/07_icons/ink/icon-cloche-ink.webp",
     },
     {
       number: "02",
-      title: "Personalize seu pedido",
+      title: "Customize Your Order",
       description: "Select sides, meat temperature and additions.",
       icon: "/assets/dn/07_icons/ink/icon-sliders-ink.webp",
     },
     {
       number: "03",
-      title: "Retirada ou entrega",
+      title: "Pickup or Delivery",
       description: "Choose convenient carryout or delivery via Wix.",
       icon: "/assets/dn/07_icons/ink/icon-delivery-truck-ink.webp",
     },
     {
       number: "04",
-      title: "Finalize com segurança",
+      title: "Check Out Securely",
       description: "Pay fast and safely with Wix official checkout.",
       icon: "/assets/dn/07_icons/ink/icon-credit-card-ink.webp",
     },
