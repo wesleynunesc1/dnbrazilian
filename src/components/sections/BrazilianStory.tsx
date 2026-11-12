@@ -7,10 +7,10 @@ export function BrazilianStory() {
   return (
     <section id="about" className="py-16 md:py-24 bg-[#100F0E] relative border-t border-white/5 overflow-hidden">
       <div className="max-w-[1320px] mx-auto px-5 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
           {/* Left Photographic Asset: Brazilian Flag & Feijoada */}
-          <div className="lg:col-span-6 relative">
-            <div className="relative aspect-[16/10] sm:aspect-[16/9] lg:h-[460px] rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.08] shadow-xl">
+          <div className="w-full lg:w-1/2 shrink-0 relative">
+            <div className="relative aspect-[16/10] sm:aspect-[16/9] lg:h-[460px] w-full rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.08] shadow-xl">
               <Image
                 src="/assets/dn/05_brazilian_story/brazilian-flag-feijoada-wide.webp"
                 alt="Brazilian culinary heritage with feijoada"
@@ -43,7 +43,7 @@ export function BrazilianStory() {
           </div>
 
           {/* Right Editorial Story Text */}
-          <div className="lg:col-span-6 space-y-4 md:space-y-6">
+          <div className="w-full lg:w-1/2 space-y-4 md:space-y-6">
             <p className="text-[11px] font-semibold tracking-[0.2em] text-[#E7B847]/90 uppercase">
               OUR BRAZILIAN STORY
             </p>
