@@ -3,9 +3,26 @@ import { Suspense } from "react";
 import { MenuContent } from "@/components/menu/MenuContent";
 
 export const metadata: Metadata = {
-  title: "Menu | D&N Brazilian Cuisine",
+  title: "Online Menu & Order",
   description:
-    "Explore our authentic Brazilian menu in Buzzards Bay, MA. Grilled steaks, tender picanha, savory appetizers, Brazilian burgers, and authentic desserts.",
+    "Order authentic Brazilian food online from D&N Brazilian Cuisine in Buzzards Bay, MA. Grilled picanha steaks, Brazilian burgers, chicken portions, farofa, and silky pudim.",
+  alternates: {
+    canonical: "https://dnbraziliancuisine.com/menu",
+  },
+  openGraph: {
+    title: "Menu | D&N Brazilian Cuisine",
+    description:
+      "Explore Brazilian plates, portions, sandwiches, and desserts. Order online for convenient carryout or delivery in Buzzards Bay, MA.",
+    url: "https://dnbraziliancuisine.com/menu",
+    images: [
+      {
+        url: "/assets/dn/03_our_menu/menu-plates-picanha.webp",
+        width: 1200,
+        height: 630,
+        alt: "D&N Brazilian Cuisine Menu Dishes",
+      },
+    ],
+  },
 };
 
 export default function MenuPage() {
