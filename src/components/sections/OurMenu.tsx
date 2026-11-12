@@ -3,44 +3,34 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { MENU_CATEGORIES } from "@/lib/config/site";
 
 export function OurMenu() {
   return (
-    <section className="py-24 bg-[#100F0E] relative overflow-hidden border-t border-white/5">
-      <div className="max-w-[1320px] mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start">
+    <section className="py-16 md:py-24 bg-[#100F0E] relative overflow-hidden border-t border-white/5">
+      <div className="max-w-[1320px] mx-auto px-5 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           {/* Left Editorial Header */}
-          <motion.div
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="lg:col-span-4 lg:sticky lg:top-28 space-y-4"
-          >
-            <div className="flex items-center gap-2">
-              <span className="h-[1px] w-6 bg-[#E7B847]" />
-              <span className="text-xs font-semibold tracking-[0.2em] text-[#E7B847] uppercase">
-                EXPLORE BY CATEGORY
-              </span>
-            </div>
+          <div className="lg:col-span-4 lg:sticky lg:top-28 space-y-2 md:space-y-4">
+            <p className="text-[11px] font-semibold tracking-[0.2em] text-[#E7B847]/90 uppercase">
+              EXPLORE BY CATEGORY
+            </p>
 
-            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#FFFFFF] font-normal leading-tight">
+            <h2 className="font-serif text-[32px] sm:text-4xl lg:text-5xl text-[#FFFFFF] font-normal leading-[1.15]">
               Our <span className="text-[#E7B847] italic">Menu</span>
             </h2>
 
-            <p className="text-[#F3EEE5]/75 text-base leading-relaxed max-w-sm">
+            <p className="text-[#F3EEE5]/70 text-sm sm:text-base leading-relaxed max-w-sm font-light">
               From classic Brazilian plates to savory portions, sandwiches and irresistible desserts.
             </p>
 
-            <div className="pt-4 hidden lg:block">
+            <div className="pt-2 hidden lg:block">
               <Link
                 href="/menu"
-                className="inline-flex items-center gap-3 text-xs uppercase tracking-wider font-semibold text-[#E7B847] hover:text-[#F3CE70] group"
+                className="inline-flex items-center gap-2 text-xs uppercase tracking-wider font-semibold text-[#E7B847] hover:text-[#F3CE70] group"
               >
                 <span>View Full Menu</span>
-                <div className="relative w-4 h-4 transition-transform group-hover:translate-x-1">
+                <div className="relative w-3.5 h-3.5 transition-transform group-hover:translate-x-1">
                   <Image
                     src="/assets/dn/07_icons/gold/icon-arrow-right-gold.webp"
                     alt=""
@@ -50,37 +40,35 @@ export function OurMenu() {
                 </div>
               </Link>
             </div>
-          </motion.div>
+          </div>
 
-          {/* Right 4 Category Cards */}
-          <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
-            {MENU_CATEGORIES.map((cat, idx) => (
-              <motion.div
-                key={cat.id}
-                initial={{ opacity: 0, y: 25 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-              >
+          {/* Right Category Cards:
+              Mobile: 2-column grid with consistent 1:1 or 4:3 cards, crisp typography.
+              Desktop: 2 columns with deeper vertical cards.
+          */}
+          <div className="lg:col-span-8 grid grid-cols-2 gap-3.5 sm:gap-6">
+            {MENU_CATEGORIES.map((cat) => (
+              <div key={cat.id}>
                 <Link
                   href={`/menu?category=${cat.id}`}
-                  className="group block relative h-[280px] sm:h-[320px] rounded-2xl overflow-hidden border border-white/10 hover:border-[#E7B847]/60 shadow-xl transition-all duration-500 hover:-translate-y-1.5"
+                  className="group block relative h-[180px] sm:h-[260px] md:h-[300px] rounded-xl sm:rounded-2xl overflow-hidden border border-white/[0.08] hover:border-[#E7B847]/50 shadow-md transition-all duration-300"
                 >
                   {/* Category Photo */}
                   <Image
                     src={cat.image}
                     alt={cat.name}
                     fill
-                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                    sizes="(max-width: 640px) 45vw, (max-width: 1024px) 300px, 350px"
+                    className="object-cover transition-transform duration-500 ease-out group-hover:scale-105"
                   />
 
-                  {/* Deep Gradient Overlay */}
+                  {/* Clean Solid-feel Gradient Overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[#100F0E] via-[#100F0E]/40 to-transparent opacity-90 transition-opacity group-hover:opacity-80" />
 
-                  {/* Card Content at bottom */}
-                  <div className="absolute inset-x-0 bottom-0 p-6 flex items-end justify-between z-10">
-                    <div className="space-y-1">
-                      <div className="relative w-6 h-6 mb-2">
+                  {/* Card Content */}
+                  <div className="absolute inset-x-0 bottom-0 p-3 sm:p-5 flex items-end justify-between z-10">
+                    <div className="space-y-0.5 sm:space-y-1">
+                      <div className="relative w-4 h-4 sm:w-5 sm:h-5 mb-1 opacity-90">
                         <Image
                           src={cat.iconGold}
                           alt=""
@@ -88,19 +76,19 @@ export function OurMenu() {
                           className="object-contain"
                         />
                       </div>
-                      <h3 className="font-serif text-2xl text-[#FFFFFF] font-normal group-hover:text-[#E7B847] transition-colors">
+                      <h3 className="font-serif text-[16px] sm:text-2xl text-[#FFFFFF] font-normal leading-tight group-hover:text-[#E7B847] transition-colors">
                         {cat.name}
                       </h3>
-                      <p className="text-xs text-[#F3EEE5]/70 line-clamp-1">
+                      <p className="hidden sm:block text-xs text-[#F3EEE5]/70 line-clamp-1 font-light">
                         {cat.tagline}
                       </p>
                     </div>
 
-                    {/* Seta Dourada */}
-                    <div className="w-9 h-9 rounded-full bg-[#100F0E]/80 border border-[#E7B847]/40 flex items-center justify-center shrink-0 transition-all duration-300 group-hover:border-[#E7B847] group-hover:bg-[#E7B847] group-hover:text-[#100F0E]">
-                      <div className="relative w-4 h-4 transition-transform group-hover:translate-x-0.5">
+                    {/* Minimalist Arrow Indicator */}
+                    <div className="w-6 h-6 sm:w-8 sm:h-8 rounded-full bg-black/40 border border-white/20 flex items-center justify-center shrink-0 group-hover:border-[#E7B847] group-hover:bg-[#E7B847] transition-colors">
+                      <div className="relative w-2.5 h-2.5 sm:w-3 sm:h-3">
                         <Image
-                          src="/assets/dn/07_icons/gold/icon-arrow-right-gold.webp"
+                          src="/assets/dn/07_icons/white/icon-arrow-right-white.webp"
                           alt=""
                           fill
                           className="object-contain group-hover:brightness-0"
@@ -109,7 +97,7 @@ export function OurMenu() {
                     </div>
                   </div>
                 </Link>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -117,4 +105,3 @@ export function OurMenu() {
     </section>
   );
 }
-
