@@ -1,0 +1,822 @@
+{
+  "brand": "D&N Brazilian Cuisine",
+  "kind": "recreated concept assets for restaurant website",
+  "images": [
+    {
+      "path": "01_logo/dn-logo-transparent.webp",
+      "width": 1350,
+      "height": 899,
+      "alpha": true
+    },
+    {
+      "path": "02_hero/hero-picanha-desktop-1920x760.webp",
+      "width": 1920,
+      "height": 760,
+      "alpha": false
+    },
+    {
+      "path": "02_hero/hero-picanha-original-photo.webp",
+      "width": 1920,
+      "height": 575,
+      "alpha": false
+    },
+    {
+      "path": "03_our_menu/menu-desserts-pudim.webp",
+      "width": 1200,
+      "height": 900,
+      "alpha": false
+    },
+    {
+      "path": "03_our_menu/menu-plates-picanha.webp",
+      "width": 1200,
+      "height": 900,
+      "alpha": false
+    },
+    {
+      "path": "03_our_menu/menu-portions-frango.webp",
+      "width": 1200,
+      "height": 900,
+      "alpha": false
+    },
+    {
+      "path": "03_our_menu/menu-sandwiches.webp",
+      "width": 1200,
+      "height": 900,
+      "alpha": false
+    },
+    {
+      "path": "04_most_loved_dishes/favorite-brazilian-sandwich.webp",
+      "width": 1400,
+      "height": 850,
+      "alpha": false
+    },
+    {
+      "path": "04_most_loved_dishes/favorite-chicken-parmigiana.webp",
+      "width": 1400,
+      "height": 850,
+      "alpha": false
+    },
+    {
+      "path": "04_most_loved_dishes/favorite-picanha-plate.webp",
+      "width": 1400,
+      "height": 850,
+      "alpha": false
+    },
+    {
+      "path": "05_brazilian_story/brazilian-flag-feijoada-section.webp",
+      "width": 1200,
+      "height": 750,
+      "alpha": false
+    },
+    {
+      "path": "05_brazilian_story/brazilian-flag-feijoada-wide.webp",
+      "width": 1920,
+      "height": 560,
+      "alpha": false
+    },
+    {
+      "path": "06_visit_us/restaurant-interior.webp",
+      "width": 1400,
+      "height": 950,
+      "alpha": false
+    },
+    {
+      "path": "07_icons/gold/icon-arrow-left-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-arrow-right-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-cake-slice-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-check-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-chef-hat-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-chevron-left-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-chevron-right-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-cloche-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-clock-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-close-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-credit-card-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-delivery-truck-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-external-link-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-facebook-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-fork-knife-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-fork-spoon-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-fries-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-globe-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-handshake-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-heart-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-instagram-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-mail-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-map-pin-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-menu-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-minus-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-phone-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-play-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-plus-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-sandwich-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-search-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-shield-check-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-shopping-bag-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-shopping-cart-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-sliders-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-sparkles-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-star-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-tiktok-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-trash-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-user-profile-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/gold/icon-youtube-gold.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-arrow-left-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-arrow-right-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-cake-slice-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-check-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-chef-hat-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-chevron-left-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-chevron-right-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-cloche-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-clock-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-close-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-credit-card-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-delivery-truck-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-external-link-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-facebook-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-fork-knife-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-fork-spoon-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-fries-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-globe-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-handshake-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-heart-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-instagram-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-mail-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-map-pin-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-menu-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-minus-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-phone-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-play-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-plus-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-sandwich-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-search-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-shield-check-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-shopping-bag-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-shopping-cart-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-sliders-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-sparkles-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-star-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-tiktok-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-trash-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-user-profile-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/ink/icon-youtube-ink.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-arrow-left-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-arrow-right-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-cake-slice-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-check-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-chef-hat-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-chevron-left-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-chevron-right-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-cloche-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-clock-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-close-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-credit-card-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-delivery-truck-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-external-link-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-facebook-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-fork-knife-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-fork-spoon-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-fries-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-globe-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-handshake-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-heart-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-instagram-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-mail-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-map-pin-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-menu-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-minus-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-phone-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-play-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-plus-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-sandwich-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-search-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-shield-check-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-shopping-bag-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-shopping-cart-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-sliders-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-sparkles-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-star-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-tiktok-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-trash-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-user-profile-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "07_icons/white/icon-youtube-white.webp",
+      "width": 512,
+      "height": 512,
+      "alpha": true
+    },
+    {
+      "path": "08_preview/food-assets-catalog.webp",
+      "width": 1954,
+      "height": 1934,
+      "alpha": false
+    },
+    {
+      "path": "08_preview/icons-catalog.webp",
+      "width": 1800,
+      "height": 1022,
+      "alpha": false
+    },
+    {
+      "path": "08_preview/logo-em-fundo-escuro.webp",
+      "width": 1500,
+      "height": 1050,
+      "alpha": false
+    }
+  ]
+}
